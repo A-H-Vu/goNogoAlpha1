@@ -352,9 +352,9 @@ function instrRoutineBegin(trials) {
     instrResp.rt = undefined;
     _instrResp_allKeys = [];
     if ((condsFile === "goNogoCond1.xlsx")) {
-        instrText.text = "'Space' for blue, nothing for orange. 'S' to start.";
+        instrText.text = "For this task, press \u2018space\u2019 for when you see the blue circle, and press nothing for the orange circle. Press \u2018s\u2019 to start.";
     } else {
-        instrText.text = "Again, 'space' for blue, nothing for orange. 'S' to start.";
+        instrText.text = "Again, press \u2018space\u2019 for when you see the blue circle, and press nothing for the orange circle. Press \u2018s\u2019 to start.";
     }
     
     // keep track of which components have finished
